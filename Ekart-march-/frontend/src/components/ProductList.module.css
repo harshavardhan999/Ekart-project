@@ -1,0 +1,44 @@
+.productlistcontainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px; /* Adjust based on your margin */
+  justify-content: space-around;
+  margin-left: 150px;
+}
+
+  
+  .productitem {
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+    max-width: 50%;
+    width: 50%; /* Ensures that the width is always 100% of the container */
+    text-decoration: none;
+    color: black;
+  }
+  
+  .productitem img {
+    width: 100%;
+    height: 200px; /* Set a fixed height for all product images */
+    object-fit: cover; /* Ensures the image covers the entire container */
+  }
+  
+  .addToCartBtn {
+    background-color: rgb(161, 161, 83); /* Green background */
+    color: aliceblue;
+    padding: 10px 24px;
+    margin: 10px 0; /* Add some margin for spacing */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+  }
+
+
+
+  .productitem button img{
+    width: 60px; /* Adjust based on your preference */
+    height: 60px;
+    margin-right: 8px; /* Adds some space between the GIF and the text */
+  }
